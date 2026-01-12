@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ## 1. Variables de referencia
 
 En el lenguaje Java, hay dos tipos de variables: variables primitivas y todo lo demás. Da la casualidad de que ahora vamos a hablar de "todo lo demás".
@@ -139,23 +139,4 @@ En C++, una variable podría almacenar tanto una referencia a un objeto como el 
 
 En C++, fácilmente podría tener la situación en la que una variable contiene un objeto, pero la otra contiene una referencia a ese objeto. En consecuencia, la cuestión de qué almacena una variable, el objeto en sí o simplemente una referencia a él, era muy importante. Cuando se pasaba un objeto a un método, se copiaba (si se pasaba por valor) y no se copiaba (si se pasaba por referencia).
 
-En Java, esta dualidad no existe, por lo que la respuesta correcta es: **los argumentos se pasan a los métodos de Java por valor** . Es solo que cuando hablamos de variables de referencia, este valor es una referencia.
-=======
 
-
-
-public class Solution {
-    //escribe aquí tu código
-    int number = Integer.MAX_VALUE;
-    short number1 = Short.MAX_VALUE;
-    long number2 = Long.MAX_VALUE;
-    byte Numeros3 = Byte.MAX_VALUE;
-}
-
-
-/**
-* En este ejercicio nos piden que la variable llegue a su maxima capacidad 
-* y lo que hicimos es coger un atajo poniendo el nombre del primitivo como Short y 
-* seguido de un punto llamamos a la cosntante MAX_VALUE para obligar al primitivo  al dicho numero
-**/
->>>>>>> 9bc299303957474ac6cb0b70dd94da78ebbd5ff6
